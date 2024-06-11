@@ -14,10 +14,18 @@
 
             if(is_numeric($realNumber)) {
                 $numberSplited = explode('.', $realNumber);
+                $realNumber = number_format($realNumber, 2, ".",",");
 
                 $integerNumber = number_format($numberSplited[0], 0, ".",",") ?? 0;
                 $decimalNumber = $numberSplited[1] ?? 0;
-                echo "<p>A parte inteira é <strong>$integerNumber</strong></p><p>A parte decimal é <strong>$decimalNumber</strong></p>";
+                echo "
+                <p>Analisando o número <strong>$realNumber</strong> informado pelo usuário:</p>
+                <li>
+                    A parte inteira é <strong>$integerNumber</strong>
+                </li>
+                <li>
+                    A parte decimal é <strong>$decimalNumber</strong>
+                </li>";
             } else {
                 echo "<p> foi possível pois não é conjunto numérico</p>";
             }
