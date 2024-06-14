@@ -11,6 +11,7 @@ Bem-vindo ao repositório com minhas anotações do curso de **PHP Moderno** do 
 - [Manipulação de strings](#manipulação-de-strings)
 - [Obtendo dados do formulário](#obtendo-dados-do-formulário)
 - [Expressões aritméticas](#expressões-aritméticas)
+- [Superglobais](#superglobais)
 - [Desafios](#desafios)
 - [Conclusão](#conclusão)
 
@@ -57,6 +58,11 @@ Operações aritméticas em PHP:
 - Adição, subtração, multiplicação e divisão ➕➖✖️➗
 - Operadores de incremento e decremento 📈📉
 - Ordem de precedência 🧮
+
+## Superglobais
+Como funciona alguma superglobais da linguagem:
+- $_SESSION, $_ENV, $_COOKIE e etc 🌐
+- Objetivos e casos de uso
 
 ## Desafios
 
